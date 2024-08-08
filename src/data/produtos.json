@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Bolo de Chocolate",
+    "descricao": "Delicioso bolo de chocolate com cobertura cremosa e recheio de brigadeiro.",
+    "preco": 29.90,
+    "quantidade": 1,
+    "imagem": "https://www.estadao.com.br/resizer/oFDrDp3xgfze9zuyNaR5gnyURVA=/arc-anglerfish-arc2-prod-estadao/public/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg"
+  },
+  {
+    "nome": "Torta de Limão",
+    "descricao": "Torta de limão com massa crocante e recheio cremoso.",
+    "preco": 24.90,
+    "quantidade": 1,
+    "imagem": "https://s2-globorural.glbimg.com/MYpZofnOEKJ5q6QPNPdNzaTTE-M=/0x0:737x599/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_afe5c125c3bb42f0b5ae633b58923923/internal_photos/bs/2023/Z/T/WWsEZdRfmetGAMkr9RXA/737px-torta-de-limao.jpg"
+  },
+  {
+    "nome": "Cupcake de Baunilha",
+    "descricao": "Cupcake de baunilha com cobertura de creme de manteiga.",
+    "preco": 9.90,
+    "quantidade": 1,
+    "imagem": "https://static.itdg.com.br/images/1200-675/23ec80134d4403cbc1f327586fc38c31/275202-original.jpg"
+  }
+]

@@ -1,0 +1,99 @@
+/* itemLoja.css */
+
+/* Layout padrão para telas grandes (desktop) */
+.item-loja-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Espaço entre os cards */
+  }
+  
+  .item-loja-card {
+    display: flex;
+    flex-direction: column; /* Alinha itens verticalmente */
+    align-items: center;
+    margin-bottom: 1rem; /* Espaço inferior */
+    flex: 1 1 calc(33.333% - 16px); /* 3 produtos por linha com espaçamento */
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    background-color: #f8f9fa;
+  }
+  
+  .item-loja-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    align-items: center;
+    padding: 0 1rem; /* Adiciona espaçamento horizontal */
+    width: 100%;
+  }
+  
+  .item-loja-actions {
+    display: flex;
+    flex-direction: column; /* Empilha as ações verticalmente */
+    align-items: center;
+    gap: 1rem; /* Espaço entre os itens */
+    margin-top: 1rem; /* Espaço superior */
+    width: 100%;
+  }
+  
+  .item-loja-quantidade {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espaço entre os botões e o input */
+    align-items: baseline;
+  }
+  
+  .item-adicionar {
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Layout para telas pequenas (celulares) */
+  @media (max-width: 768px) {
+    .item-loja-card {
+      flex: 1 1 calc(50% - 16px); /* 2 produtos por linha em telas menores */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Layout para telas muito pequenas (celulares) */
+    .item-loja-card {
+      flex-direction: column; /* Empilha os itens verticalmente */
+      align-items: center; /* Centraliza o conteúdo */
+      flex: 1 1 100%; /* 1 produto por linha */
+    }
+  
+    .item-loja-info {
+      width: 100%; /* Ajusta a largura do conteúdo */
+    }
+  
+    .item-loja-actions {
+      flex-direction: column; /* Empilha as ações verticalmente */
+      align-items: stretch; /* Estica os itens para a largura total */
+    }
+  
+    .item-loja-quantidade {
+      width: 100%; /* Ajusta a largura do container de quantidade */
+      justify-content: center; /* Centraliza os botões e o input */
+      gap: 0.5rem; /* Espaço entre os botões e o input */
+      margin-bottom: 0.5rem; /* Espaço inferior */
+    }
+  
+    .item-loja-actions .form-control {
+      width: 100%; /* Ajusta a largura do input */
+      max-width: 80px; /* Limita a largura máxima do input */
+    }
+  
+    .item-loja-actions .btn-secondary,
+    .item-loja-actions .btn-primary {
+      width: 100%; /* Garante que os botões se ajustem */
+      max-width: 100px; /* Limita a largura máxima dos botões */
+      margin-bottom: 0.5rem; /* Espaço inferior */
+    }
+  }
+  

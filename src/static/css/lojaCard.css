@@ -1,0 +1,71 @@
+.loja-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f8f9fa;
+  flex-direction: column;
+}
+
+.icone-loja {
+  flex: 1;
+  max-width: 33%;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icone-loja img {
+  width: 100px;
+  height: 100px;
+}
+
+.loja-info {
+  flex: 2;
+  padding: 10px;
+  text-align: center;
+}
+
+.endereco-loja {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: inherit; /* Mantém a cor do texto */
+}
+
+.status-loja {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.status-bolinha {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.status-aberto .status-bolinha {
+  background-color: green;
+}
+
+.status-fechado .status-bolinha {
+  background-color: red;
+}
+
+.contato-loja {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.whatsapp-loja,
+.email-loja {
+  margin: 10px 10px;
+}

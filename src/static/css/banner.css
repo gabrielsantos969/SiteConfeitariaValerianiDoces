@@ -1,0 +1,21 @@
+.banner {
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/09/75/be/e8/caffe-ristoro-casa-das.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    position: relative;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .banner h1 {
+      font-size: 2rem;
+    }
+  }
