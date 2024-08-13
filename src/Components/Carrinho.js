@@ -55,7 +55,7 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
   };
 
   const gerarMensagemPedido = (itens) => {
-    let mensagem = `Pedido nº 707\n\nCliente: ${nome}\nForma de Pagamento: ${formaPagamento}\n\nItens:\n`;
+    let mensagem = `Pedido \n\nCliente: ${nome}\nForma de Pagamento: ${formaPagamento}\n\nItens:\n`;
     itens.forEach((item) => {
       mensagem += `➡ ${item.quantidade}x ${item.nome}\n      ${item.descricao}\n\n`;
     });

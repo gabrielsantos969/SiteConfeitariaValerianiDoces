@@ -10,6 +10,7 @@ function App() {
   const [carrinho, setCarrinho] = useState([]);
   const [carrinhoVisivel, setCarrinhoVisivel] = useState(false);
   const carrinhoRef = useRef(null); // Referência para o componente Carrinho
+  const botaoCarrinhoRef = useRef(null); // Referência para o botão do carrinho
 
   const handleAdicionarAoCarrinho = (item) => {
     const preco = parseFloat(item.preco);
@@ -46,7 +47,12 @@ function App() {
   useEffect(() => {
     // Função para lidar com o clique fora do componente
     const handleClickOutside = (event) => {
-      if (carrinhoRef.current && !carrinhoRef.current.contains(event.target)) {
+      if (
+        carrinhoRef.current && 
+        !carrinhoRef.current.contains(event.target) &&
+        botaoCarrinhoRef.current &&
+        !botaoCarrinhoRef.current.contains(event.target)
+      ) {
         setCarrinhoVisivel(false);
       }
     };
@@ -66,6 +72,7 @@ function App() {
         className="btn-carrinho" 
         onClick={() => setCarrinhoVisivel(!carrinhoVisivel)}
         aria-label="Toggle Carrinho"
+        ref={botaoCarrinhoRef}
       >
         🛒
       </button>
