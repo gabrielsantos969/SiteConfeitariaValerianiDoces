@@ -6,6 +6,8 @@ import Carrinho from './Components/Carrinho.js';
 import produtos from './data/produtos.json'; // Importa o arquivo JSON
 import './App.css';
 
+
+
 function App() {
   const [carrinho, setCarrinho] = useState([]);
   const [carrinhoVisivel, setCarrinhoVisivel] = useState(false);

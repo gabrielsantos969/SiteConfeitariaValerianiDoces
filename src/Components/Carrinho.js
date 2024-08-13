@@ -49,8 +49,9 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
     }
 
     setAviso(''); // Limpa o aviso se o total não for zero
+    const numeroWhatsapp = process.env.REACT_APP_WHATSAPP_NUMBER;
     const mensagem = gerarMensagemPedido(itens);
-    const urlWhatsApp = `https://wa.me/5581999999999?text=${encodeURIComponent(mensagem)}`;
+    const urlWhatsApp = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensagem)}`;
     window.open(urlWhatsApp, '_blank');
   };
 
@@ -63,6 +64,10 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
       mensagem += `\nEndereço de Entrega:\nRua: ${endereco}\nBairro: ${bairro}\nNúmero: ${numero}\nCidade: ${cidade} - ${uf}\n`;
     }
     mensagem += `\nTotal: R$ ${calcularTotal()}\n`;
+    mensagem += `\n*_Obs.¹: O pedido só é concluído após o pagamento confirmado._*\n`;
+    if (opcaoEntrega === 'entrega') {
+      mensagem += `\n*_Obs.²: Utilizamos a entrega do Uber para enviar nossos produtos, então terá taxas de entrega adicional para o envio._*\n`;
+    }
     mensagem += `\nObrigado pela preferência, se precisar de algo é só chamar! 😉`;
 
     return mensagem;
