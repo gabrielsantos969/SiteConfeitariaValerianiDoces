@@ -1,8 +1,9 @@
 [
   {
-    "nome": "Bolo de Chocolate",
+    "nome": "Bolo",
     "descricao": "Delicioso bolo de chocolate com cobertura cremosa e recheio de brigadeiro.",
     "preco": 29.90,
+    "sabor": ["brigadeiro", "beijinho", "ninho","prestígio", "casadinho"],
     "quantidade": 1,
     "imagem": "https://www.estadao.com.br/resizer/oFDrDp3xgfze9zuyNaR5gnyURVA=/arc-anglerfish-arc2-prod-estadao/public/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg"
   },

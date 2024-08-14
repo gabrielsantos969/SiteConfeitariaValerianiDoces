@@ -1,7 +1,7 @@
 import React, { useState, forwardRef } from 'react';
 import '../static/css/carrinho.css';
 
-const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcluirCompra, className }, ref) => {
+const Carrinho = forwardRef(({ itens, setItens, onEditarQuantidade, onRemoverItem, onConcluirCompra, className }, ref) => {
   const [mostrarCheckout, setMostrarCheckout] = useState(false);
   const [nome, setNome] = useState('');
   const [formaPagamento, setFormaPagamento] = useState('Cartão');
@@ -44,7 +44,7 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
     e.preventDefault();
     const total = calcularTotal();
     if (parseFloat(total) === 0) {
-      exibirAviso('Adicione um produto ao carrinho antes de finalizar a compra.'); // Define o aviso
+      exibirAviso('Adicione um produto ao carrinho antes de finalizar a compra.');
       return;
     }
 
@@ -58,7 +58,11 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
   const gerarMensagemPedido = (itens) => {
     let mensagem = `Pedido \n\nCliente: ${nome}\nForma de Pagamento: ${formaPagamento}\n\nItens:\n`;
     itens.forEach((item) => {
-      mensagem += `➡ ${item.quantidade}x ${item.nome}\n      ${item.descricao}\n\n`;
+      mensagem += `➡ ${item.quantidade}x ${item.nome}\n`;
+      if (item.sabor) {
+        mensagem += `   Tipo: ${item.sabor}\n`;
+      }
+      mensagem += `    ${item.descricao}\n\n`;
     });
     if (opcaoEntrega === 'entrega') {
       mensagem += `\nEndereço de Entrega:\nRua: ${endereco}\nBairro: ${bairro}\nNúmero: ${numero}\nCidade: ${cidade} - ${uf}\n`;
@@ -87,7 +91,7 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
               {itens.map((item, index) => (
                 <li key={index} className="list-group-item">
                   <div className="item-info">
-                    <strong>{item.nome}</strong>
+                    <strong>{item.nome}{item.sabor ? ` - ${item.sabor}` : ''}</strong>
                     <div className="item-descricao">{item.descricao}</div>
                   </div>
                   <div className="item-actions">
@@ -122,7 +126,7 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
 
       {aviso && <div className="alert alert-warning">{aviso}</div>} {/* Exibe o aviso se definido */}
 
-      {mostrarCheckout && parseFloat(calcularTotal()) > 0 && ( // Adiciona a condição para verificar se o total é maior que zero
+      {mostrarCheckout && parseFloat(calcularTotal()) > 0 && (
         <div className="mt-3 p-3 border rounded">
           <h5>Finalizar Compra</h5>
           <form onSubmit={handleFinalizarCompra}>
@@ -189,8 +193,7 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
                   <label htmlFor="numero" className="form-label">Número</label>
                   <input
                     type="text"
-                    id="numero"
-                    className="form-control"
+                    id="numero" className="form-control"
                     value={numero}
                     onChange={(e) => setNumero(e.target.value)}
                     required
@@ -200,8 +203,7 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
                   <label htmlFor="cidade" className="form-label">Cidade</label>
                   <input
                     type="text"
-                    id="cidade"
-                    className="form-control"
+                    id="cidade" className="form-control"
                     value={cidade}
                     onChange={(e) => setCidade(e.target.value)}
                     required
@@ -211,8 +213,7 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
                   <label htmlFor="uf" className="form-label">UF</label>
                   <input
                     type="text"
-                    id="uf"
-                    className="form-control"
+                    id="uf" className="form-control"
                     value={uf}
                     onChange={(e) => setUf(e.target.value)}
                     required
@@ -220,7 +221,7 @@ const Carrinho = forwardRef(({ itens, onEditarQuantidade, onRemoverItem, onConcl
                 </div>
               </>
             )}
-            <button type="submit" className="btn btn-success">Enviar Pedido</button>
+            <button type="submit" className="btn btn-primary">Enviar Pedido</button>
           </form>
         </div>
       )}
