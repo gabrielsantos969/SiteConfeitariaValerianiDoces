@@ -59,8 +59,8 @@ const Carrinho = forwardRef(({ itens, setItens, onEditarQuantidade, onRemoverIte
     let mensagem = `Pedido \n\nCliente: ${nome}\nForma de Pagamento: ${formaPagamento}\n\nItens:\n`;
     itens.forEach((item) => {
       mensagem += `➡ ${item.quantidade}x ${item.nome}\n`;
-      if (item.sabor) {
-        mensagem += `   Tipo: ${item.sabor}\n`;
+      if (item.saboresEscolhidos) {
+        mensagem += `   Sabores: ${item.saboresEscolhidos.join(', ')}\n`;
       }
       mensagem += `    ${item.descricao}\n\n`;
     });
@@ -73,9 +73,10 @@ const Carrinho = forwardRef(({ itens, setItens, onEditarQuantidade, onRemoverIte
       mensagem += `\n*_Obs.²: Utilizamos a entrega do Uber para enviar nossos produtos, então terá taxas de entrega adicional para o envio._*\n`;
     }
     mensagem += `\nObrigado pela preferência, se precisar de algo é só chamar! 😉`;
-
+  
     return mensagem;
   };
+  
 
   return (
     <div ref={ref} className={`carrinho ${className}`}>
@@ -91,8 +92,14 @@ const Carrinho = forwardRef(({ itens, setItens, onEditarQuantidade, onRemoverIte
               {itens.map((item, index) => (
                 <li key={index} className="list-group-item">
                   <div className="item-info">
-                    <strong>{item.nome}{item.sabor ? ` - ${item.sabor}` : ''}</strong>
+                    <strong>{item.nome}</strong>
                     <div className="item-descricao">{item.descricao}</div>
+                    {item.saboresEscolhidos && item.saboresEscolhidos.length > 0 && (
+                      <div className="item-sabores">
+                        <strong>Sabores:</strong> {item.saboresEscolhidos.join(', ')}
+                      </div>
+                    )}
+
                   </div>
                   <div className="item-actions">
                     <div className="item-quantidade">
@@ -115,6 +122,7 @@ const Carrinho = forwardRef(({ itens, setItens, onEditarQuantidade, onRemoverIte
                   </div>
                 </li>
               ))}
+
             </ul>
           )}
         </div>

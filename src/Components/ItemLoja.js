@@ -4,20 +4,31 @@ import '../static/css/itemLoja.css';  // Adicione o caminho para o arquivo CSS s
 const ItemLoja = ({ produto, adicionarAoCarrinho }) => {
   const [quantidade, setQuantidade] = useState(1);
   const [expandirDescricao, setExpandirDescricao] = useState(false);
-  const [saborSelecionado, setSaborSelecionado] = useState(
-    produto.sabor && produto.sabor.length > 0 ? produto.sabor[0] : ''
-  );
+  const [saboresSelecionados, setSaboresSelecionados] = useState([]);
+
+  const handleSaborChange = (sabor) => {
+    if (saboresSelecionados.includes(sabor)) {
+      // Remove o sabor se já estiver selecionado
+      setSaboresSelecionados(saboresSelecionados.filter(s => s !== sabor));
+    } else {
+      // Adiciona o sabor à lista de selecionados
+      setSaboresSelecionados([...saboresSelecionados, sabor]);
+    }
+  };
 
   const handleAdicionarAoCarrinho = () => {
-    console.log("click")
+    if (saboresSelecionados.length === 0) {
+      alert('Por favor, selecione pelo menos um sabor.');
+      return;
+    }
+
     adicionarAoCarrinho({
       nome: produto.nome,
       preco: produto.preco,
       quantidade,
       total: quantidade * produto.preco,
-      descricao: produto.descricao,
-      sabor: saborSelecionado, // Adiciona o sabor selecionado ao objeto do carrinho
-    });
+      descricao: produto.descricao
+    },saboresSelecionados);
   };
 
   return (
@@ -36,22 +47,31 @@ const ItemLoja = ({ produto, adicionarAoCarrinho }) => {
           </span>
         </p>
         
-        {/* Seção para escolher o sabor, só aparece se houver sabores */}
+        {/* Seção para escolher os sabores, só aparece se houver sabores */}
         {produto.sabor && produto.sabor.length > 0 && (
           <div className="item-loja-sabor mb-3">
-            <label htmlFor="sabor-select" className="form-label">Escolha o sabor:</label>
-            <select
-              id="sabor-select"
-              className="form-select"
-              value={saborSelecionado}
-              onChange={(e) => setSaborSelecionado(e.target.value)}
-            >
-              {produto.sabor.map((sabor, index) => (
-                <option key={index} value={sabor}>
+            <label className="form-label">
+              Escolha os sabores (até {produto.quantidade_sabores}):
+            </label>
+            {produto.sabor.map((sabor, index) => (
+              <div key={index} className="form-check">
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  id={`sabor-${index}`}
+                  value={sabor}
+                  checked={saboresSelecionados.includes(sabor)}
+                  onChange={() => handleSaborChange(sabor)}
+                  disabled={
+                    saboresSelecionados.length >= produto.quantidade_sabores &&
+                    !saboresSelecionados.includes(sabor)
+                  }
+                />
+                <label className="form-check-label" htmlFor={`sabor-${index}`}>
                   {sabor}
-                </option>
-              ))}
-            </select>
+                </label>
+              </div>
+            ))}
           </div>
         )}
         

@@ -6,25 +6,30 @@ import Carrinho from './Components/Carrinho.js';
 import produtos from './data/produtos.json'; // Importa o arquivo JSON
 import './App.css';
 
-
-
 function App() {
   const [carrinho, setCarrinho] = useState([]);
   const [carrinhoVisivel, setCarrinhoVisivel] = useState(false);
   const carrinhoRef = useRef(null); // Referência para o componente Carrinho
   const botaoCarrinhoRef = useRef(null); // Referência para o botão do carrinho
 
-  const handleAdicionarAoCarrinho = (item) => {
+  const handleAdicionarAoCarrinho = (item, saboresEscolhidos) => {
     const preco = parseFloat(item.preco);
     if (isNaN(preco) || preco <= 0) {
       console.error('Preço inválido:', item.preco);
       return;
     }
-
-    const itemComPreco = { ...item, preco, total: preco * (item.quantidade || 1) };
+  
+    const itemComPreco = { 
+      ...item, 
+      preco, 
+      total: preco * (item.quantidade || 1), 
+      saboresEscolhidos: saboresEscolhidos || [] 
+    };
+    
     setCarrinho([...carrinho, itemComPreco]);
     setCarrinhoVisivel(true);  // Abre o carrinho quando o item é adicionado
   };
+  
 
   const handleEditarQuantidade = (index, quantidade) => {
     const novosItens = [...carrinho];
