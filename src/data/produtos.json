@@ -1,46 +1,200 @@
 [
   {
-    "nome": "Bolo",
-    "descricao": "Delicioso bolo de chocolate com cobertura cremosa e recheio de brigadeiro.",
-    "preco": 29.90,
-    "sabor": ["brigadeiro", "beijinho", "ninho","prestígio", "casadinho"],
-    "quantidade": 1,
-    "imagem": "https://www.estadao.com.br/resizer/oFDrDp3xgfze9zuyNaR5gnyURVA=/arc-anglerfish-arc2-prod-estadao/public/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg",
-    "quantidade_sabores": 1
-  },
-  {
     "nome": "Doces Tradicionais",
     "descricao": "25 unidades de doces tradicionais com até 2 sabores",
     "preco": 45.00,
-    "sabor": ["brigadeiro", "beijinho", "cajuzinho", "paçoca", "ninho","prestígio", "casadinho", "café"],
-    "quantidade": 1,
-    "imagem": "https://s2-globorural.glbimg.com/MYpZofnOEKJ5q6QPNPdNzaTTE-M=/0x0:737x599/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_afe5c125c3bb42f0b5ae633b58923923/internal_photos/bs/2023/Z/T/WWsEZdRfmetGAMkr9RXA/737px-torta-de-limao.jpg",
+    "sabor": ["brigadeiro", "beijinho", "casadinho", "cajuzinho", "prestígio", "paçoca", "ninho", "café"],
+    "quantidade": 25,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/440144075_17999706278554862_6679987405616191449_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=H_Ggz1GajJoQ7kNvgH0JT_5&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM2MTM3MDcwMjIxOTI1ODcyOQ%3D%3D.2-ccb7-5&oh=00_AYCPMarhptMelhmb6ZTBtg4PuTwqRAGdfG8VvieOn48J5Q&oe=66CAB64C&_nc_sid=0b30b7",
     "quantidade_sabores": 2
   },
   {
     "nome": "Doces Tradicionais",
-    "descricao": "Torta de limão com massa crocante e recheio cremoso.",
+    "descricao": "50 unidades de doces tradicionais com até 3 sabores",
     "preco": 79.00,
-    "sabor": ["brigadeiro", "beijinho", "cajuzinho", "paçoca", "ninho","prestígio", "casadinho", "café"],
-    "quantidade": 1,
-    "imagem": "https://s2-globorural.glbimg.com/MYpZofnOEKJ5q6QPNPdNzaTTE-M=/0x0:737x599/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_afe5c125c3bb42f0b5ae633b58923923/internal_photos/bs/2023/Z/T/WWsEZdRfmetGAMkr9RXA/737px-torta-de-limao.jpg",
-    "quantidade_sabores": 2
+    "sabor": ["brigadeiro", "beijinho", "casadinho", "cajuzinho", "prestígio", "paçoca", "ninho", "café"],
+    "quantidade": 50,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/440144075_17999706278554862_6679987405616191449_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=H_Ggz1GajJoQ7kNvgH0JT_5&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM2MTM3MDcwMjIxOTI1ODcyOQ%3D%3D.2-ccb7-5&oh=00_AYCPMarhptMelhmb6ZTBtg4PuTwqRAGdfG8VvieOn48J5Q&oe=66CAB64C&_nc_sid=0b30b7",
+    "quantidade_sabores": 3
   },
   {
     "nome": "Doces Tradicionais",
-    "descricao": "Torta de limão com massa crocante e recheio cremoso.",
+    "descricao": "100 unidades de doces tradicionais com até 4 sabores",
     "preco": 147.50,
-    "sabor": ["brigadeiro", "beijinho", "cajuzinho", "paçoca", "ninho","prestígio", "casadinho", "café"],
-    "quantidade": 1,
-    "imagem": "https://s2-globorural.glbimg.com/MYpZofnOEKJ5q6QPNPdNzaTTE-M=/0x0:737x599/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_afe5c125c3bb42f0b5ae633b58923923/internal_photos/bs/2023/Z/T/WWsEZdRfmetGAMkr9RXA/737px-torta-de-limao.jpg",
+    "sabor": ["brigadeiro", "beijinho", "casadinho", "cajuzinho", "prestígio", "paçoca", "ninho", "café"],
+    "quantidade": 100,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/440144075_17999706278554862_6679987405616191449_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=H_Ggz1GajJoQ7kNvgH0JT_5&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM2MTM3MDcwMjIxOTI1ODcyOQ%3D%3D.2-ccb7-5&oh=00_AYCPMarhptMelhmb6ZTBtg4PuTwqRAGdfG8VvieOn48J5Q&oe=66CAB64C&_nc_sid=0b30b7",
+    "quantidade_sabores": 4
+  },
+  {
+    "nome": "Doces Gourmets",
+    "descricao": "25 unidades de doces gourmets com até 2 sabores",
+    "preco": 57.50,
+    "sabor": ["Mm's", "Romeu e Julieta", "Ferrero Rocher", "Ninho com Nutella", "KitKat", "Oreo", "chocolate branco", "coração"],
+    "quantidade": 25,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/440144075_17999706278554862_6679987405616191449_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=H_Ggz1GajJoQ7kNvgH0JT_5&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM2MTM3MDcwMjIxOTI1ODcyOQ%3D%3D.2-ccb7-5&oh=00_AYCPMarhptMelhmb6ZTBtg4PuTwqRAGdfG8VvieOn48J5Q&oe=66CAB64C&_nc_sid=0b30b7",
     "quantidade_sabores": 2
   },
   {
     "nome": "Doces Gourmets",
-    "descricao": "Cupcake de baunilha com cobertura de creme de manteiga.",
-    "preco": 9.90,
-    "sabor": ["Mm”s", "Romeu e Julieta", "Ferrero Rocher", "Ninho com Nutella", "KitKat", "Oreo", "Chocolate Branco", "Coração"],
+    "descricao": "50 unidades de doces gourmets com até 3 sabores",
+    "preco": 105.00,
+    "sabor": ["Mm's", "Romeu e Julieta", "Ferrero Rocher", "Ninho com Nutella", "KitKat", "Oreo", "chocolate branco", "coração"],
+    "quantidade": 50,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/440144075_17999706278554862_6679987405616191449_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=H_Ggz1GajJoQ7kNvgH0JT_5&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM2MTM3MDcwMjIxOTI1ODcyOQ%3D%3D.2-ccb7-5&oh=00_AYCPMarhptMelhmb6ZTBtg4PuTwqRAGdfG8VvieOn48J5Q&oe=66CAB64C&_nc_sid=0b30b7",
+    "quantidade_sabores": 3
+  },
+  {
+    "nome": "Doces Gourmets",
+    "descricao": "100 unidades de doces gourmets com até 4 sabores",
+    "preco": 195.00,
+    "sabor": ["Mm's", "Romeu e Julieta", "Ferrero Rocher", "Ninho com Nutella", "KitKat", "Oreo", "chocolate branco", "coração"],
+    "quantidade": 100,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/440144075_17999706278554862_6679987405616191449_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=H_Ggz1GajJoQ7kNvgH0JT_5&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM2MTM3MDcwMjIxOTI1ODcyOQ%3D%3D.2-ccb7-5&oh=00_AYCPMarhptMelhmb6ZTBtg4PuTwqRAGdfG8VvieOn48J5Q&oe=66CAB64C&_nc_sid=0b30b7",
+    "quantidade_sabores": 4
+  },
+  {
+    "nome": "Bolos",
+    "descricao": "Mini bolo com sabores variados",
+    "preco": 35.00,
+    "sabor": ["brigadeiro", "beijinho", "ninho", "prestígio", "casadinho"],
     "quantidade": 1,
-    "imagem": "https://static.itdg.com.br/images/1200-675/23ec80134d4403cbc1f327586fc38c31/275202-original.jpg"
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/450866381_18007438313554862_4865143932623118897_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=JpJ6SG_CWv0Q7kNvgE-_GOL&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzQxMDgzNDQxOTk0NzUzMjc5MA%3D%3D.2-ccb7-5&oh=00_AYBzmjsRuCV9FfmSkAnulkm8WnL95YFUhtHIhbfbvBLsNQ&oe=66CAD477&_nc_sid=0b30b7",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Bolos",
+    "descricao": "Bolo PP (5 fatias) com sabores variados",
+    "preco": 68.50,
+    "sabor": ["brigadeiro", "beijinho", "ninho", "prestígio", "casadinho"],
+    "quantidade": 5,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/450866381_18007438313554862_4865143932623118897_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=JpJ6SG_CWv0Q7kNvgE-_GOL&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzQxMDgzNDQxOTk0NzUzMjc5MA%3D%3D.2-ccb7-5&oh=00_AYBzmjsRuCV9FfmSkAnulkm8WnL95YFUhtHIhbfbvBLsNQ&oe=66CAD477&_nc_sid=0b30b7",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Bolos",
+    "descricao": "Bolo P (10 a 15 fatias) com sabores variados",
+    "preco": 99.00,
+    "sabor": ["brigadeiro", "beijinho", "ninho", "prestígio", "casadinho"],
+    "quantidade": 10,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/450866381_18007438313554862_4865143932623118897_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=JpJ6SG_CWv0Q7kNvgE-_GOL&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzQxMDgzNDQxOTk0NzUzMjc5MA%3D%3D.2-ccb7-5&oh=00_AYBzmjsRuCV9FfmSkAnulkm8WnL95YFUhtHIhbfbvBLsNQ&oe=66CAD477&_nc_sid=0b30b7",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Bolos",
+    "descricao": "Bolo M (20 a 25 fatias) com sabores variados",
+    "preco": 199.00,
+    "sabor": ["brigadeiro", "beijinho", "ninho", "prestígio", "casadinho"],
+    "quantidade": 20,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/450866381_18007438313554862_4865143932623118897_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=JpJ6SG_CWv0Q7kNvgE-_GOL&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzQxMDgzNDQxOTk0NzUzMjc5MA%3D%3D.2-ccb7-5&oh=00_AYBzmjsRuCV9FfmSkAnulkm8WnL95YFUhtHIhbfbvBLsNQ&oe=66CAD477&_nc_sid=0b30b7",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Salgados Fritos Normais",
+    "descricao": "25 unidades de salgados fritos normais com 1 sabor",
+    "preco": 37.50,
+    "sabor": ["Coxinhas", "bolinha de queijo", "bolinha de pizza", "mini churros", "kibes", "bolivianos"],
+    "quantidade": 25,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/449014808_18005553611554862_6511030432572369805_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=L52EUAzCfbQQ7kNvgG2qlVA&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM5OTA4NDU3OTQ0MjEyNDc3MA%3D%3D.2-ccb7-5&oh=00_AYBv2X2NkbrprMl_ng7b_hTbYqS-DC7a1-ELQcpMbAzxAg&oe=66CAD7EC&_nc_sid=0b30b7",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Salgados Fritos Normais",
+    "descricao": "50 unidades de salgados fritos normais com 2 sabores",
+    "preco": 69.00,
+    "sabor": ["Coxinhas", "bolinha de queijo", "bolinha de pizza", "mini churros", "kibes", "bolivianos"],
+    "quantidade": 50,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/449014808_18005553611554862_6511030432572369805_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=L52EUAzCfbQQ7kNvgG2qlVA&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM5OTA4NDU3OTQ0MjEyNDc3MA%3D%3D.2-ccb7-5&oh=00_AYBv2X2NkbrprMl_ng7b_hTbYqS-DC7a1-ELQcpMbAzxAg&oe=66CAD7EC&_nc_sid=0b30b7",
+    "quantidade_sabores": 2
+  },
+  {
+    "nome": "Salgados Fritos Normais",
+    "descricao": "100 unidades de salgados fritos normais com 4 sabores",
+    "preco": 132.50,
+    "sabor": ["Coxinhas", "bolinha de queijo", "bolinha de pizza", "mini churros", "kibes", "bolivianos"],
+    "quantidade": 100,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/449014808_18005553611554862_6511030432572369805_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=L52EUAzCfbQQ7kNvgG2qlVA&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM5OTA4NDU3OTQ0MjEyNDc3MA%3D%3D.2-ccb7-5&oh=00_AYBv2X2NkbrprMl_ng7b_hTbYqS-DC7a1-ELQcpMbAzxAg&oe=66CAD7EC&_nc_sid=0b30b7",
+    "quantidade_sabores": 4
+  },
+  {
+    "nome": "Empadas",
+    "descricao": "10 unidades de empadas com 1 sabor",
+    "preco": 25.00,
+    "sabor": ["queijo", "frango", "carne"],
+    "quantidade": 10,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/449068582_18005553584554862_485301254267990694_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=UnjAp_l_-a0Q7kNvgHn0BzG&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM5OTA4NDU3OTQzMzcwMDMwNA%3D%3D.2-ccb7-5&oh=00_AYCXjpFoHFLdnqoWmmsV7QtddQkoUl0d32qM1I9-jMxjig&oe=66CACE5A&_nc_sid=0b30b7",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Empadas",
+    "descricao": "20 unidades de empadas com 2 sabores",
+    "preco": 45.00,
+    "sabor": ["queijo", "frango", "carne"],
+    "quantidade": 20,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/449068582_18005553584554862_485301254267990694_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=UnjAp_l_-a0Q7kNvgHn0BzG&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM5OTA4NDU3OTQzMzcwMDMwNA%3D%3D.2-ccb7-5&oh=00_AYCXjpFoHFLdnqoWmmsV7QtddQkoUl0d32qM1I9-jMxjig&oe=66CACE5A&_nc_sid=0b30b7",
+    "quantidade_sabores": 2
+  },
+  {
+    "nome": "Empadas",
+    "descricao": "50 unidades de empadas com 3 sabores",
+    "preco": 110.00,
+    "sabor": ["queijo", "frango", "carne"],
+    "quantidade": 50,
+    "imagem": "https://instagram.fssa2-1.fna.fbcdn.net/v/t39.30808-6/449068582_18005553584554862_485301254267990694_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=UnjAp_l_-a0Q7kNvgHn0BzG&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzM5OTA4NDU3OTQzMzcwMDMwNA%3D%3D.2-ccb7-5&oh=00_AYCXjpFoHFLdnqoWmmsV7QtddQkoUl0d32qM1I9-jMxjig&oe=66CACE5A&_nc_sid=0b30b7",
+    "quantidade_sabores": 3
+  },
+  {
+    "nome": "Camarão Encapotado",
+    "descricao": "10 unidades de camarão encapotado",
+    "preco": 25.00,
+    "sabor": ["camarão"],
+    "quantidade": 10,
+    "imagem": "https://static.wixstatic.com/media/227cbc_3bedc892f01d441e9e6fd89f235da466.jpg/v1/fill/w_476,h_476,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/227cbc_3bedc892f01d441e9e6fd89f235da466.jpg",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Camarão Encapotado",
+    "descricao": "20 unidades de camarão encapotado",
+    "preco": 45.00,
+    "sabor": ["camarão"],
+    "quantidade": 20,
+    "imagem": "https://static.wixstatic.com/media/227cbc_3bedc892f01d441e9e6fd89f235da466.jpg/v1/fill/w_476,h_476,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/227cbc_3bedc892f01d441e9e6fd89f235da466.jpg",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Camarão Encapotado",
+    "descricao": "50 unidades de camarão encapotado",
+    "preco": 110.00,
+    "sabor": ["camarão"],
+    "quantidade": 50,
+    "imagem": "https://static.wixstatic.com/media/227cbc_3bedc892f01d441e9e6fd89f235da466.jpg/v1/fill/w_476,h_476,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/227cbc_3bedc892f01d441e9e6fd89f235da466.jpg",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Pão Delícia",
+    "descricao": "10 unidades de pão delícia",
+    "preco": 25.00,
+    "sabor": ["pão delícia"],
+    "quantidade": 10,
+    "imagem": "https://topdelisalgados.com.br/wp-content/uploads/2023/03/PAO-DELICIA-CREME-DE-QUEIJO-1.png",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Pão Delícia",
+    "descricao": "20 unidades de pão delícia",
+    "preco": 45.00,
+    "sabor": ["pão delícia"],
+    "quantidade": 20,
+    "imagem": "https://topdelisalgados.com.br/wp-content/uploads/2023/03/PAO-DELICIA-CREME-DE-QUEIJO-1.png",
+    "quantidade_sabores": 1
+  },
+  {
+    "nome": "Pão Delícia",
+    "descricao": "50 unidades de pão delícia",
+    "preco": 110.00,
+    "sabor": ["pão delícia"],
+    "quantidade": 50,
+    "imagem": "https://topdelisalgados.com.br/wp-content/uploads/2023/03/PAO-DELICIA-CREME-DE-QUEIJO-1.png",
+    "quantidade_sabores": 1
   }
 ]
