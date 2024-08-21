@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../static/css/lojaCard.css';
+import icon from '../static/img/icon.jpg';
 
 const LojaCard = () => {
   const [status, setStatus] = useState('');
@@ -22,7 +23,7 @@ const LojaCard = () => {
       <div className="card loja-card">
         {/* Ícone da Loja */}
         <div className="icone-loja">
-          <img src="https://cdn.icon-icons.com/icons2/94/PNG/512/sweets_food_16799.png" className="img-fluid" alt="Ícone da Loja" />
+          <img src={icon} className="img-fluid rounded-icon" alt="Ícone da Loja" />
         </div>
 
         {/* Informações da Loja */}

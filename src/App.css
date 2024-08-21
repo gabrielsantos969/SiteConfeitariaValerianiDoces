@@ -2,8 +2,10 @@
 .app-container {
   display: flex;
   flex-direction: row;
-  width: 100vw; /* Garantir que a largura da página seja 100% */
+  width: 100%; /* Garantir que a largura da página seja 100% */
   overflow: hidden; /* Evitar overflow indesejado */
+  background-color: #9c1ebf;
+  color: white;
 }
 
 .main-content {
@@ -48,12 +50,12 @@
   position: fixed;
   right: 20px;
   bottom: 20px;
-  background-color: #007bff;
+  background-color: #601076;
   border: none;
   color: white;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;

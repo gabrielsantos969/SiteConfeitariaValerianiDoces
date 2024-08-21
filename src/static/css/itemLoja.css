@@ -52,6 +52,15 @@
     justify-content: center;
     width: 100%;
   }
+
+  .rounded-icon {
+    border-radius: 50%;
+    border: 5px solid gold; /* Borda dourada */
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px; /* Ajuste o tamanho conforme necessário */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+    margin-bottom: 15px;
+  }
   
   /* Layout para telas pequenas (celulares) */
   @media (max-width: 768px) {

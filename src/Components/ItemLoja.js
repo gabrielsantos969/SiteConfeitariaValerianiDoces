@@ -33,7 +33,7 @@ const ItemLoja = ({ produto, adicionarAoCarrinho }) => {
 
   return (
     <div className="item-loja-card card mb-3 p-3">
-      <img src={produto.imagem} alt={produto.nome} className="img-fluid" style={{ maxWidth: '100px' }} />
+      <img src={produto.imagem} alt={produto.nome} className="img-fluid rounded-icon" style={{ maxWidth: '150px' }} />
       <div className="ms-3 item-loja-info">
         <h5>{produto.nome}</h5>
         <p>

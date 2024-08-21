@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #f8f9fa;
+  background-color: #601076;
+  color: #FFF;
   flex-direction: column;
 }
 
@@ -68,4 +69,12 @@
 .whatsapp-loja,
 .email-loja {
   margin: 10px 10px;
+}
+
+.rounded-icon {
+  border-radius: 50%;
+  border: 5px solid gold; /* Borda dourada */
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  height: 150px; /* Ajuste o tamanho conforme necessário */
+  object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
 }
